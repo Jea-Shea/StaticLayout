@@ -11,9 +11,8 @@ a:visited {
 .topHalf {
     width: 100vw;
     height: 75vh;
-    padding: ;
     background-color: black;
-    background: url('https://miro.medium.com/max/11000/1*OKuHAM4QUamyMRUE0G-CiQ.jpeg') center 75% no-repeat ;
+    background: url('assets/hulu.png') center 75% no-repeat ;
     background-size: cover;
     opacity: .8;
     z-index: 1;
@@ -108,7 +107,6 @@ a:visited {
     font-family: 'Alata', sans-serif;
     font-family: 'Mukta', sans-serif;
     color: white; 
-    margin-top: ;
     text-shadow: 1px 3px 3px #3C453C;
     text-align: center;
     font-size: 10px;

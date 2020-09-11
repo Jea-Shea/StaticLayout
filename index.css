@@ -32,11 +32,16 @@ a:visited {
   }
 
 .greeting {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
   #hulu {      
     height: 25%;
+    display: flex;
+    justify-items: center;
 }
 
   h2 {
@@ -45,10 +50,10 @@ a:visited {
       font-family: 'Mukta', sans-serif;
       margin-top: -5px;
       text-shadow: 1px 3px 3px #3C453C;
-      display: flex;
+      /*display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   }
 
   h3 {
@@ -57,10 +62,10 @@ a:visited {
     color: white; 
     margin-top: -5px;
     text-shadow: 1px 3px 3px #3C453C;
-    display: flex;
+    /*display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   }
 
   h4 {
@@ -70,10 +75,10 @@ a:visited {
     margin-top: 50px;
     margin-bottom: -5px;
     text-shadow: 1px 3px 3px #3C453C;
-    display: flex;
+   /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
 #freeTrial {
@@ -99,7 +104,7 @@ a:visited {
     font-family: 'Mukta', sans-serif;
     color: white; 
     text-shadow: 1px 3px 3px #3C453C;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 10px;
 
   }
